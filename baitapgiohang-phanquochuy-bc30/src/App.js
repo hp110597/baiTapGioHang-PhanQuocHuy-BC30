@@ -1,12 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
+import BaiTapGioHang from './BaiTapGioHang/BaiTapGioHang';
 
 function App() {
   return (
     <div className="App">
-      <p className='text-danger'>123</p>
+      <BaiTapGioHang/>
     </div>
   );
 }
-
 export default App;
